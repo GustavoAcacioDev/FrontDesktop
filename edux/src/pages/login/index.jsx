@@ -11,15 +11,21 @@ const Login = () => {
     return (
       <div>
       <Menu />
+      <Container className="flex">
          <Container className='form-height'>
-           
+                <Container className= "Texto">
+                    <h1>EduX</h1>
+                    <h2>Faça Parte Voce também!</h2>
+                    <h4>Entre agora para usufluir todos os beneficios disponiveis</h4>
+                </Container>  
+
               <Form className='form-signin' >
                   
                   <br/>
                   <h3>Login</h3>
                   <hr/>
                   
-                  <Form.Group controlId="formBasicEmail">
+                  <Form.Group controlId="formBasicEma   il">
                       <Form.Label>Email </Form.Label>
                       <Form.Control type="email"  placeholder="Informe o email" required />
                   </Form.Group>
@@ -36,11 +42,8 @@ const Login = () => {
               </Form>
           </Container>
 
-            <Container class= "Texto">
-            <h1>EduX</h1>
-            <h2>Faça Parte Voce também!</h2>
-            <h4>Entre agora para usufluir todos os beneficios disponiveis</h4>
-            </Container>       
+            
+        </Container>         
       <Rodape />
       </div>
   )
