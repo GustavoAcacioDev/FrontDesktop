@@ -9,7 +9,7 @@ import './index.css';
 
 const Login = () => {
     return (
-      <div>
+      <div className="completo">
       <Menu />
       <Container className="flex">
          <Container className='form-height'>
@@ -47,6 +47,8 @@ const Login = () => {
       <Rodape />
       </div>
   )
+
 }
+
 
 export default Login
