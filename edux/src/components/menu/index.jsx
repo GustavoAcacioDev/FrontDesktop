@@ -5,13 +5,15 @@ import './index.css';
 const Menu = () => {
     return(
        
-         <div>
+      <div>
            
-       <Navbar bg="light" expand="lg" >
-        <Navbar.Brand href="#home">EduX</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+           
+        <Navbar bg="light" expand="lg" >
+          <Navbar.Brand href="#home">EduX</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
          
-      </Navbar>
+        </Navbar>
       </div>
       
     )

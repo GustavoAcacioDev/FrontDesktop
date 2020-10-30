@@ -2,13 +2,31 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Login from './pages/login';
+import Home from './pages/home';
+import Cadastrar from './pages/cadastrar';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NaoEncontrada from './pages/naoencontrada';
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+import Perfil from './pages/Perfil';
+
+
+
+
+const routing = (
+  <Router>
+    <Switch>
+      <Route exact path='/' component={Home} />
+      <Route exact path='/login' component={Login} />
+      <Route exact path='/cadastrar' component={Cadastrar} />
+      <Route exact path='/perfil' component={Perfil} />
+      <Route exact path='/naoencontrada' component={NaoEncontrada} />
+    </Switch>
+  </Router>
+)
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Login />
-  </React.StrictMode>,
+  routing,
   document.getElementById('root')
 );
 
