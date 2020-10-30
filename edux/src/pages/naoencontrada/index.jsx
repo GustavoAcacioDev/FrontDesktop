@@ -6,7 +6,10 @@ const NaoEncontrada = () => {
     return(
         <div>
             <Menu/>
-            <h1>404</h1>
+                <div className="container">
+                    <h1>404 - PÁGINA NÃO ENCONTRADA</h1>
+                </div>
+                
             <Rodape/>
         </div>
     )

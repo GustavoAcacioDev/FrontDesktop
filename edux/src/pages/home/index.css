@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{
+    padding:0;
+    margin: 0;
+}
+.artigo{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(156, 167, 159, 0.712);
+    margin-top: 50px;
+    box-shadow: -1px 4px 5px #706c6c, -1px -6px 25px #5e595d ;
+    border-radius: 10px;
+}
+
+
+
+.Alan{
+    width: 100%;
+    height: 204px;
+    margin-top: 15px;
+}
+.comentario{
+    height: 150px;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.curtida{
+    width: 100%;
+    background-color: rgb(63, 63, 63);
+    height: 40px;
+    margin-top: 12px;
+    border-radius: 10px 10px;
+}
+.curtida:hover{
+    background-color: rgb(65, 65, 245);
+    text-decoration: none;
+    list-style-type: none;
+}
+.curtida a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    margin-left: 175px;
+    margin-top: 20px; 
+}
+.curtida a:hover{
+    font-size: 20 px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+
+.pessoa img{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 22px;
+}
+.pessoa{
+    display: flex;
+}
+.pessoa h2{
+    font-size: small;
+    margin-top: 25px;
+    margin-left: 7px;
+}
+.pessoa h3{
+    font-size: 12px;
+    margin-top: 27px;
+    color: rgba(139, 139, 133, 0.74);
+    margin-left: 80px;
+    
+}
+.cont{
+    display: flex;
+    
+}
+.ark{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+}
+.turmas h2{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.turmas{
+    width: 300px;
+    height: 700px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.gerenciar{
+    border-bottom-style: 0.5px;
+    border-bottom-style: inset ;
+    border-bottom-color: #000;
+    width: 250px;
+}
+.turmas:hover{
+    overflow: auto;
+}
+.divArtigo{
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.nomeTurma{
+    background-color: rgba(68, 64, 64, 0.644);
+    width: 250px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+.nomeTurma p{
+    color: white;
+    font-weight: bold;
+}

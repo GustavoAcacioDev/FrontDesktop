@@ -7,16 +7,25 @@ import './index.css'
 
 const Perfil = () => {
     return(
-        <div>
+        <div className="body">
             <Menu/>
             <Container>
-                <Container className="Perfil">
+                <Container className="perfil">
                     <Row className="Row">
                         <Col xs={6} md={4}>                       
                             <Image className="imgPerfil" src={Img} roundedCircle />
-                            <p>Nome Perfil</p>
+                            <p>(Nome Usuario)</p>
                         </Col>                
                     </Row>
+                    <Container className="container2">
+                        <p>Estuda em (Instituição)</p>
+                        <p>Nasceu em (DataNasc)</p>
+                        <p>Mora em (Endereço)</p>
+                    </Container>
+                </Container>
+                <Container className="tabela">
+                    <p>Turmas que você participa</p>
+                    <a href="/atividades" className="p2">Atividades</a>
                 </Container>
             </Container>
             <Rodape/>

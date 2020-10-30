@@ -1,22 +1,25 @@
-import React from 'react';
-import {Navbar , Nav} from 'react-bootstrap';
-import './index.css';
+import React from 'react'
+import './index.css'
+import {Navbar, Nav} from 'react-bootstrap'
+import Logo2 from  '../../assets/img/logo_2.png'
 
-const Menu = () => {
+const Header = () => {
     return(
-       
-      <div>
-           
-
-           
-        <Navbar bg="light" expand="lg" >
-          <Navbar.Brand href="#home">EduX</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-         
-        </Navbar>
-      </div>
-      
+    
+        <header class="cabecalho">
+          <h1><img src={Logo2} alt="Logo do Edux"/></h1>
+          <nav>
+              <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/perfil">Perfil</a></li>
+                <li><a href="/atividades">Atividades</a></li>
+                <li><a href="/configuracoes">Configuração</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/cadastrar">Cadastrar</a></li>
+              </ul>
+        </nav>
+    </header>
+    
     )
 }
-
-export default Menu;
+export default Header;

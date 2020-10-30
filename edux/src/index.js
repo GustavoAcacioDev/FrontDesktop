@@ -4,11 +4,16 @@ import './index.css';
 import Login from './pages/login';
 import Home from './pages/home';
 import Cadastrar from './pages/cadastrar';
-import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Configuracoes from './pages/configuracoes';
+import Atividade from './pages/atividades';
 import NaoEncontrada from './pages/naoencontrada';
-import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+import reportWebVitals from './reportWebVitals';
 import Perfil from './pages/Perfil';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
+
+
 
 
 
@@ -20,6 +25,8 @@ const routing = (
       <Route exact path='/login' component={Login} />
       <Route exact path='/cadastrar' component={Cadastrar} />
       <Route exact path='/perfil' component={Perfil} />
+      <Route exact path='/configuracoes' component={Configuracoes} />
+      <Route exact path='/atividades' component={Atividade} />
       <Route exact path='/naoencontrada' component={NaoEncontrada} />
     </Switch>
   </Router>
