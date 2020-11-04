@@ -18,14 +18,15 @@ const Login = () => {
     const logar = (event) => {
         event.preventDefault();
 
-        fetch('https://localhost:44305/api/Perfil',{
+        fetch('http://localhost:5000/api/usuario',{
             method : 'POST',
             body : JSON.stringify({
                 email : email,
                 senha : senha
             }),
             headers : {
-                'content-type' : 'application/json'
+                'content-type' : 'application/json',
+                'use-cors' : 'none'
             }
         })
         .then(response => {
