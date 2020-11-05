@@ -9,6 +9,7 @@ import Atividade from './pages/atividades';
 import NaoEncontrada from './pages/naoencontrada';
 import reportWebVitals from './reportWebVitals';
 import Perfil from './pages/Perfil';
+import Turma from './pages/turma';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
@@ -28,6 +29,7 @@ const routing = (
       <Route exact path='/configuracoes' component={Configuracoes} />
       <Route exact path='/atividades' component={Atividade} />
       <Route exact path='/naoencontrada' component={NaoEncontrada} />
+      <Route exact path='/turma' component={Turma} />
     </Switch>
   </Router>
 )
