@@ -13,44 +13,40 @@ const Home = () => {
     <div>
         <Menu/>
         <Container >
-            <main className="cont">
-            <div class="turmas">
+        
+            <Container className="cont">
+            <div className="turmas">
             <div class="gerenciar">
             <h2>Grupos que você está incluído</h2>
             </div>
-            <a href="#turma">
+            <a href="/turma">
             <div class="ark">
-                <img class="ark" src={img} alt="ark"/>
-                <div class="nomeTurma">
-                <p>SENAI - Dev.Tarde</p>
-            </div>
-            </div>
-            
-            </a>
-            <a href="#turma">
-            <div class="ark">
-                <img class="ark" src={imagem} alt="ark"/>
+                <h5 className="cursoTurma" >Senai Dev. - Tarde</h5>
             </div>
             </a>
-            <a href="#turma">
+            <a href="/turma">
             <div class="ark">
-                <img class="ark" src={image} alt="ark"/>
+                <h5>Senai Dev. - Tarde</h5>
             </div>
             </a>
-            <a href="#turma">
+            <a href="/turma">
             <div class="ark">
-                <img class="ark" src={imagem} alt="ark"/>
+                <h5>Senai Dev. - Tarde</h5>
             </div>
             </a>
-            <a href="#turma">
+            <a href="/turma">
             <div class="ark">
-                <img class="ark" src={img} alt="ark"/>
+                <h5>Senai Dev. - Tarde</h5>
+            </div>
+            </a>
+            <a href="/turma">
+            <div class="ark">
+                <h5>Senai Dev. - Tarde</h5>
             </div>
             </a>
         </div>
         
         <div class="divArtigo">
-            <script></script>
             <article class="artigo">
                 <div class="pessoa">
                     <img src={image} alt="acod"/>
@@ -95,7 +91,7 @@ const Home = () => {
             </a>
         </article>
         </div>
-        </main>
+        </Container>
         </Container>
     
         <Rodape/>

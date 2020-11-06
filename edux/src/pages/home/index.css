@@ -81,21 +81,29 @@ html {
     
 }
 .ark{
-    width: 250px;
-    height: 150px;
-    border-radius: 15px;
-    margin-top: 20px;
-    position: relative;
+    width: 80%;
+    height: 60px;
+    padding-top: 10px;
+    border-bottom-width: 2px;
+    border-bottom-style: 0.5px;
+    border-bottom-style: inset ;
+    border-bottom-color: rgb(65, 61, 61);
+    
 }
+
+
+
 .turmas h2{
     font-size: 15px;
     margin-left: 20px;
 }
 .turmas{
-    width: 300px;
+    width: 317px;
     height: 700px;
-    margin-top: 50px;
+    margin-top: 110px;
     margin-left: 5px;
+    box-shadow: -1px 4px 5px #706c6c, -1px -6px 25px #5e595d ;
+    border-radius: 22px;
 }
 .gerenciar{
     border-bottom-style: 0.5px;
@@ -114,10 +122,38 @@ html {
 .nomeTurma{
     background-color: rgba(68, 64, 64, 0.644);
     width: 250px;
-    margin-bottom: 50px;
-    position: absolute;
+    
+    
 }
 .nomeTurma p{
     color: white;
     font-weight: bold;
+}
+.turmas div{
+    margin-left: 25px;
+}
+.ark h5{
+    font-size: 20px;
+    margin-left: 7px;
+    margin-top: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    
+}
+
+.cursoTurma{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.ark:hover{
+transition: 0.2s;
+transform: scale(1.03);
+background-color: #8b8b8b;
+border-radius: 22px;
+
+}
+.gerenciar{
+    margin-top: 20px;
 }

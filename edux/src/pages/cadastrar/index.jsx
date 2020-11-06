@@ -86,19 +86,6 @@ const Cadastrar = () => {
                 <Form.Label>Turma:</Form.Label>
                 <Form.Control type="Turma"  placeholder="Turma"  required/>
             </Form.Group>
-              <Form.Group controlId="formBasicPassword">
-                <Form.Label>Escolha o seu perfil:</Form.Label>
-                <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Professor</option>
-                    <option>Aluno</option>
-                    </select>
-                  <input name="remember" type="checkbox" defaultChecked/>
-            </Form.Group>
-
-
-        
-            
-
               </Form>
                 
               
