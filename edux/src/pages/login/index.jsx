@@ -4,6 +4,7 @@ import jwt_decode from 'jwt-decode';
 import Menu from '../../components/menu';
 import Rodape from '../../components/rodape';
 import { Container , Form , Button } from 'react-bootstrap';
+import Logo2 from  '../../assets/img/logo_2.png';
 import './index.css';
 
 
@@ -61,9 +62,10 @@ const Login = () => {
       <Container className="flex">
          <Container className='form-height'>
                 <Container className= "Texto">
-                    <h1>EduX</h1>
+
+                    <h1><img src={Logo2} alt="Logo do Edux"/></h1>
                     <h2>Faça Parte Voce também!</h2>
-                    <h4>Entre agora para usufluir todos os beneficios disponiveis</h4>
+                    <h4>Entre agora para usufruir todos os beneficios disponiveis</h4>
                 </Container>  
 
                 <Container className='form-height'>

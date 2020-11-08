@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Login from './pages/login';
+import Turma from './pages/turma';
 import Home from './pages/home';
 import Cadastrar from './pages/cadastrar';
 import Configuracoes from './pages/configuracoes';
@@ -32,6 +33,7 @@ const routing = (
       <Route exact path='/atividades' component={Atividade} />
       <Route exact path='/naoencontrada' component={NaoEncontrada} />
       <Route exact path='/cadastroturma' component={CadastroTurma}/>
+      <Route exact path='/turma' component={Turma}/>
       
     </Switch>
   </Router>

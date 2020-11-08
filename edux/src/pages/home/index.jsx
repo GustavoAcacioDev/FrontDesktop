@@ -15,7 +15,7 @@ const Home = () => {
         <Container >
         
             <Container className="cont">
-            <div className="turmas">
+            <div className="turmas" id="myDIV">
             <div class="gerenciar">
             <h2>Grupos que você está incluído</h2>
             </div>

@@ -23,12 +23,75 @@ const Perfil = () => {
                         <p>Mora em (Endereço)</p>
                     </Container>
                 </Container>
+               
+                
+                
+                <div class="objetivos">
                 <Container className="tabela">
-                    <p>Turmas que você participa</p>
-                    <a href="/atividades" className="p2">Atividades</a>
-                </Container>
+                    <p>Metas e objetivos conquistados</p>
+              </Container>
+
+                 <Container>
+
+                    <div class="media-body">
+                        <h4 class="media-heading">Teacher</h4>
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Teacher</h4>
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Teacher</h4>
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <div class="media-body">
+                        <h4 class="media-heading">Teacher</h4>
+                        <p>Lorem ipsum...</p>
+                    </div>
+                 
+                    <button href="/atividades"  type="button" class="btn btn-outline-warning">Atividades</button>
+                  
+
+                                <div class="container">
+            <h2>Turmas que você participa</h2>
+                 
+            <table class="table table-warning table-hover">
+                <thead>
+                <tr>
+                    <th>Turma</th>
+                    <th>Nome do Professor</th>
+                    <th>Nota</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mary</td>
+                    <td>Moe</td>
+                    <td>mary@example.com</td>
+                </tr>
+                <tr>
+                    <td>July</td>
+                    <td>Dooley</td>
+                    <td>july@example.com</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+               
+                 </Container>
+
+                </div>
+   
+           
             </Container>
             <Rodape/>
+           
         </div>
     )
 }
