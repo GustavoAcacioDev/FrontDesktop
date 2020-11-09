@@ -2,6 +2,7 @@ import React from 'react';
 import { Container , Form , Button } from 'react-bootstrap';
 import Menu from '../../components/menu';
 import Rodape from '../../components/rodape';
+import Logo2 from  '../../assets/img/logo_2.png';
 import './index.css';
 
 const Configuracoes = () => {
@@ -11,7 +12,7 @@ const Configuracoes = () => {
         <Container className="flex">
            <Container className='form-height'>
                   <Container className= "Texto">
-                      <h1>EduX</h1>
+                    <h1><img src={Logo2} alt="Logo do Edux"/></h1>
                       <h2>Atualize seu cadastro</h2>
                       
                   </Container>  

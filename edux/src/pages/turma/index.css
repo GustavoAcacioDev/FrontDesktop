@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+.curso{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 2em; color: #00d65f;
+
+    
+}
+
+
 .con{
     width: 100%;
 }
@@ -12,22 +22,28 @@
     height: 75px;
     box-shadow: -1px 4px 5px #706c6c, -1px -2px 25px #5e595d ;
     border-radius: 25px;
+    border-width: 6px;
+    border-style: dashed;
+    border-color: #f9e800;
     
 }
 .classe h4{
-    margin-left: 100px;
+    margin-left: 70px;
+    padding-top: 14px;
 }
 .separacoes{
     width: 400px;
-    height: 50px;
+    height: 62px;
     display: flex;
     justify-content: space-around;
     margin-left: 350px;
+    
 }
 .separacoes div{
     
     margin-top: 25px;
-    box-shadow: -1px 2px 2px #706c6c, -1px -1px 10px #5e595d ;
+    box-shadow: -1px 2px 2px #706c6c, -1px -1px 8px #5e595d ;
+    border-radius: 2.5px;
 }
 .separacoes div a{
     text-decoration: none;
@@ -44,7 +60,10 @@ div a:hover{
     font-size: 17px;
 }
 .activity{
-    background-color: white;
+   
+    border-width: 6px;
+    border-style: dashed;
+    border-color: #f9e800;
     margin-left: 250px;
     margin-top: 70px;
     width: 600px;

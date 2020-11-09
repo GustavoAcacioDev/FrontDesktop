@@ -15,17 +15,20 @@ const Turma = () =>{
 
         <div className="separacoes">
             <div>
-                <a href="/">Feed</a>
+            <button  href="/"  type="button" class="btn btn-outline-success">Feed</button>
+                
             </div>
             <div>
-                <a href="/turma">Atividades</a>
+            <button href="/turma"  type="button" class="btn btn-outline-success">Atividades</button>
             </div>
             <div>
-                <a href="/integrantes">Integrantes</a>
+            <button href="/integrantes"  type="button" class="btn btn-outline-success">Integrantes</button>
+                
             </div>
         </div>
 
         <article className="activity">
+       
             <h5>
                 Atividade:
             </h5>
@@ -35,11 +38,14 @@ const Turma = () =>{
             <h5>
                 Objetivo: Executar com maestria o exemplo dado em aula
             </h5>
+
+        
         </article>
+      
         </Container>
     <Rodape/>
     </div>
     )
 }
 
-export default Turma
+export default Turma;

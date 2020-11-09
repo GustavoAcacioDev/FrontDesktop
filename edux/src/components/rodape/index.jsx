@@ -26,7 +26,7 @@ const Rodape = () =>{
             </ul>
         </div>
         </div>
-        <h4 class="direitos">Todos os direitos da marca Edux são propriedades do Grupo5</h4>
+        <h4 class="direitos">Todos os direitos da marca Edux são propriedades do Grupo 5</h4>
     </footer>
     )
 }

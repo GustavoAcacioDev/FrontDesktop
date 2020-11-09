@@ -10,6 +10,7 @@
 
 .imgPerfil {
     width: 100%;
+    margin-top: 20px;
 }
 
 .col-md-4{
@@ -17,13 +18,13 @@
     text-align: center;
 }
 .container2{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .tabela{
     margin-top: 20px;
     width: 100%;
-    background-color: cadetblue;
+    background-color: #00d65f;
     display: flex;
 }
 

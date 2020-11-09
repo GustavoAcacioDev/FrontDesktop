@@ -4,7 +4,8 @@ import jwt_decode from 'jwt-decode';
 import Menu from '../../components/menu';
 import Rodape from '../../components/rodape';
 import { Container , Form , Button } from 'react-bootstrap';
-import './index.css';
+import Logo2 from  '../../assets/img/logo_2.png';
+import './login.css';
 
 
 
@@ -42,16 +43,20 @@ const Login = () => {
     return (
       <div className="completo">
       <Menu />
-      <Container className="flex">
-         <Container className='form-height'>
+      <Container className="first">
+         <Container className='second'>
                 <Container className= "Texto">
-                    <h1>EduX</h1>
-                    <h2>Faça Parte Voce também!</h2>
-                    <h4>Entre agora para usufluir todos os beneficios disponiveis</h4>
+                    <div class="div">
+
+                    <h1><img src={Logo2} alt="Logo do Edux"/></h1>
+                    <h2>Faça Parte Voce também! <br/>Entre agora para usufruir <br/>todos os beneficios disponiveis </h2>
+                   
+
+                    </div>
                 </Container>  
 
-                <Container className='form-height'>
-                 <Form className='form-signin' onSubmit={ event => logar(event) }>
+                <Container className='second2'>
+                 <Form className='uno' onSubmit={ event => logar(event) }>
                     <div className='text-center'>
                        <img src="" alt=""/>
                     </div>
