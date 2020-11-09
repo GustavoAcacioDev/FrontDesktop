@@ -18,15 +18,14 @@ const Login = () => {
     const logar = (event) => {
         event.preventDefault();
 
-        fetch('http://localhost:5000/api/usuario',{
+        fetch('https://localhost:5001/api/Login',{
             method : 'POST',
             body : JSON.stringify({
                 email : email,
                 senha : senha
             }),
             headers : {
-                'content-type' : 'application/json',
-                'use-cors' : 'none'
+                'content-type' : 'application/json'
             }
         })
         .then(response => {
@@ -37,22 +36,7 @@ const Login = () => {
 
             alert('Dados Invalidos');
         })
-        .then(data => {
-            console.log(data)
-
-            localStorage.setItem('token-nyous-tarde', data.token);
-
-            let usuario = jwt_decode(data.token)
-
-            if(usuario.role === 'Admin')
-                history.push('/admin/dashboard');
-            else   
-                history.push('/eventos') 
-
-
-            history.push('/eventos');
-        })
-        .catch(err => console.error(err))
+        
     }
 
     return (

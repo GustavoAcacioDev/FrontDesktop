@@ -8,7 +8,7 @@ import './index.css';
 
 
 const Atividade = () => {
-    
+        
     
         
         return(
@@ -32,7 +32,7 @@ const Atividade = () => {
                 </div>
                                     
                 <button type="button" class="btn btn-primary btn-block">Postar</button>
-                <button type="button" class="btn btn-primary btn-block">Cancelar</button>
+                <button type="button" class="btn btn-primary btn-block">Cancelar</button>   
                 </Container>
                 </div>
 
