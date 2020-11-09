@@ -38,7 +38,7 @@ const Atividade = () => {
 
 
                 <div class="Borda">
-                <h2 class="Text">Postagens:</h2>
+                
                 </div>
                 
 

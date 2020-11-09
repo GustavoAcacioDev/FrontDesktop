@@ -9,9 +9,9 @@ const Cadastrar =() => {
     
         <div className="completo" style={{color: "white"}}>
         <Menu />
-        <Container className="flex">
-            <Container className='form-height'>
-                <Form className='form-signin' >
+        <Container className="Primeiro">
+            <Container className='Segundo'>
+                <Form className='Terceiro' >
         
        
             <div class="BordaText">
@@ -58,11 +58,10 @@ const Cadastrar =() => {
             
     
                     </Form>
-                    <Container/>
                     <br/> <br/> <br/>
                 
-                    <Container className="flex">
-                <Form className='form-signin' >
+                    
+                <Form className='Terceiro' >
                 
     
               <hr/>
@@ -99,15 +98,15 @@ const Cadastrar =() => {
               </Form.Group>
                 
               </Form>
-                </Container>
+             
               
               
                 
         
 
-                <Container className="flex">
+              
                 
-                <Form className='form-signin' >
+                <Form className='Terceiro' >
                 
                 
               <hr/>
@@ -164,14 +163,15 @@ const Cadastrar =() => {
 
 
             </Form>
-      </Container>
+        <Container/>
+      
       </Container>
         
     </Container>         
     <Rodape />
     </div>
     )
-       
+    
 }
 
 export default Cadastrar;
