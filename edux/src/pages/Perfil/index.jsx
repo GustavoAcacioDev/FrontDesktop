@@ -66,19 +66,19 @@ const Perfil = () => {
                 </thead>
                 <tbody>
                 <tr>
-                    <td>John</td>
-                    <td>Doe</td>
-                    <td>john@example.com</td>
+                    <td>Turma 1</td>
+                    <td>Rafael Hanashiro</td>
+                    <td>6.0</td>
                 </tr>
                 <tr>
-                    <td>Mary</td>
-                    <td>Moe</td>
-                    <td>mary@example.com</td>
+                    <td>Turma 2</td>
+                    <td>Raquel Toledo</td>
+                    <td>7.0</td>
                 </tr>
                 <tr>
-                    <td>July</td>
-                    <td>Dooley</td>
-                    <td>july@example.com</td>
+                    <td>Turma 3</td>
+                    <td>Alexandre Souza</td>
+                    <td>8.0</td>
                 </tr>
                 </tbody>
             </table>
