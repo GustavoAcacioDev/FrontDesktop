@@ -46,36 +46,22 @@ const Atividade = () => {
                 <Container class="textoo"> 
                 <div class="media">
                     <div class="media-body">
-                        <h4 class="media-heading">Teacher</h4>
-                        <p>Lorem ipsum...</p>
+                        <h4 class="media-heading">Professora Raquel</h4>
+                        <p>Bom dia queridos, para a nossa nota mensal, vocês farão uma produção de texto dissertativa, modelo Enem com o tem: "A ansiedade contemporânea". Valendo 10! Boa sorte...</p>
                     </div>
         
                 </div>
                 <div class="media">
                     <div class="media-body">
-                        <h4 class="media-heading">Teacher</h4>
-                        <p>Lorem ipsum...</p>
+                        <h4 class="media-heading">Professor Rafael</h4>
+                        <p>Caros alunos, hoje vou enviar uma lista de exercícios sobre cinemática via e-mail! São 50 exercícios, e vocês têm uma semana para entregar! Boa lista...</p>
                     </div>
         
                 </div>
                 <div class="media">
                     <div class="media-body">
-                        <h4 class="media-heading">Teacher</h4>
-                        <p>Lorem ipsum...</p>
-                    </div>
-        
-                </div>
-                <div class="media">
-                    <div class="media-body">
-                        <h4 class="media-heading">Teacher</h4>
-                        <p>Lorem ipsum...</p>
-                    </div>
-        
-                </div>
-                <div class="media">
-                    <div class="media-body">
-                        <h4 class="media-heading">Teacher</h4>
-                        <p>Lorem ipsum...</p>
+                        <h4 class="media-heading">Professor Alexandre</h4>
+                        <p>Queridos alunos, quero para a próxima aula uma pesquisa com os melhores exercícios de gramática de vestibular (Enem, FUVEST, Unicamp...). Iremos praticar muito, um abraço!</p>
                     </div>
         
                 </div>
